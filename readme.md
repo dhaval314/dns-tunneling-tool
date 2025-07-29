@@ -37,7 +37,7 @@ dns-tunneling-tool/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * Python 3.6+
 * `dnslib` library
@@ -84,14 +84,6 @@ Sent 01 EOM
 ```
 hello from client
 ```
-
----
-
-## 📌 Notes
-
-* Uses Base32 to ensure DNS-safe characters (A–Z, 2–7)
-* Max DNS label size is 63 bytes, so messages are chunked
-* Domain name used is `tunnel.local`, mapped to `127.0.0.1` or any custom IP in `/etc/hosts`
 
 ---
 
